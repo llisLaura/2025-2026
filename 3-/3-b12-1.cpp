@@ -1,4 +1,4 @@
-/* 2452640 Æû³µ ÂŞÀ² */
+/* 2452640 æ±½è½¦ ç½—å•¦ */
 #include <iostream>
 #include <limits>
 #include <math.h>
@@ -9,8 +9,8 @@ int main()
 	int x;
 
 	while (1) {
-		cout << "ÇëÊäÈëxµÄÖµ[0-100] : ";
-		cin >> x;   //¶ÁÈëxµÄ·½Ê½±ØĞëÊÇ cin>>intĞÍ±äÁ¿£¬²»ÔÊĞíÆäËû·½Ê½
+		cout << "è¯·è¾“å…¥xçš„å€¼[0-100] : ";
+		cin >> x;   //è¯»å…¥xçš„æ–¹å¼å¿…é¡»æ˜¯ cin>>intå‹å˜é‡ï¼Œä¸å…è®¸å…¶ä»–æ–¹å¼
 		if (x >= 0 && x <= 100 && cin.good())
 			break;
 		if (cin.fail())
@@ -21,7 +21,7 @@ int main()
 		
 	}
 
-	cout << "cin.fail()=" << cin.fail() << " x=" << x << endl; //´Ë¾ä²»×¼¶¯£¬²¢ÇÒÒªÇóÊä³öÊ±failÎª0
+	cout << "cin.fail()=" << cin.fail() << " x=" << x << endl; //æ­¤å¥ä¸å‡†åŠ¨ï¼Œå¹¶ä¸”è¦æ±‚è¾“å‡ºæ—¶failä¸º0
 
 	return 0;
 }
